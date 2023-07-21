@@ -12,7 +12,7 @@ body{
 
 .card{
     width: 90%;
-    max-width: 670px;
+   
     background: linear-gradient(135deg, #5985d1,#5b548a);
     color: #fff;
     margin: 100px auto 0;
@@ -55,7 +55,7 @@ body{
 
 }
 .search button img{
-    width: 16px;
+    width: 2rem;
 }
 
 
@@ -108,3 +108,29 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width:600px) { 
+
+
+  .card{
+    width: 450px;
+  }
+    .search button img{
+        width: 8px;
+        height: 8px;
+    }
+    .weather{
+        width: 400px;
+    }
+    .humdity , .wind{
+        font-size: 0.8rem;
+        margin-top: -6px;
+    }
+    .col img{
+        width: 60px;
+        margin-right:  10px;
+        
+    }
+  
+  }
+  
